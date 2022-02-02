@@ -1,0 +1,30 @@
+{
+    "name": {
+        "item1": "Marija"
+    },
+
+    "email": {
+        "item2": "itekakotest@gmail.com"
+    },
+
+    "phone": {
+        "item3": "555255"
+    },
+
+    "time": {
+        "item4": "14:25"
+    },
+
+    "persons": {
+        "item5": "2"
+    },
+
+    "dayMonth": {
+        "item6": "20-02"
+    },
+    
+    "year": {
+        "item7": "2020"
+    }
+
+}

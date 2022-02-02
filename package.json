@@ -1,0 +1,17 @@
+{
+  "name": "testautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nightwatch.js",
+  "scripts": {
+    "firstTask": "node nightwatch tests/reservationTest.js -e chrome",
+    "secondTask": "node nightwatch tests/menuTest.js -e chrome",
+    "thirdTask": "node nightwatch tests/questionnaireTest.js -e chrome",
+    "test": "npm run firstTask & npm run secondTask & npm run thirdTask"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^1.5.1"
+  }
+}
